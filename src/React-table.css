@@ -1,0 +1,17 @@
+.ReactTable .rt-thead.-header {
+  box-shadow: 0px 0px;
+  background-color: rgba(0,0,0,0.1);
+}
+.rt-resizable-header-content{
+  font-size: 12px;
+}
+.ReactTable .rt-tbody .rt-td {
+  font-size: 12px;
+  text-align: center;
+}
+.ReactTable .rt-table {
+  height: 155px;
+}
+.ReactTable{
+  border: 1px solid rgb(221, 221, 221);
+}

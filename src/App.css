@@ -1,33 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html, body{
+  height:100%;
+  font-family: 'Open Sans', sans-serif;
+}
+#root{
+  height: 100%;
+}
 .App {
-  text-align: center;
+  background-color: #606060;
+  display: flex;
+  justify-content:center;
+  height:100%;
+  flex-direction: row;
+  overflow: scroll;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.invoice{
+  /* margin-top: 50px; */
+  width:827px;
+  height:950px;
+  background-color: white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  height: 250px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.headerRow{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.companyName{
+  font-size: 18px;
+  font-weight: bold;
+}
+.logoArea{
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.logo{
+  height: 70px;
+  width: 70px;
 }
 
-.App-link {
-  color: #61dafb;
+.detailsArea{
+  width: 200px;
+  display: flex;
+  align-items: right;
+  flex-direction: column;
 }
+.detailsTitle{
+  font-size: 18px;
+  width: 100%;
+  text-align:right;
+  font-weight: bold;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.detail{
+  font-size: 11px;
+  width: 100%;
+  text-align:right;
+}
+.companyData{
+}
+.companyData p{
+  font-size: 11px;
+  line-height: 3px;
+}
+.content{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 80px;
+}
+.extraInfo{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+}
+.total{
+  background-color: #E5E5E5;
+}
+.title, .value{
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.footerNotes{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 80px;
+}
+.footerNoteTitle{
+  font-size: 14px;
+  font-weight: bold;
+}
+.footerNoteSubTitle{
+  font-size: 13px;
+}
+.footerNoteContent{
+  font-size: 13px;
+}
+.footer{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 160px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e5e5e5;
 }
